@@ -1,0 +1,250 @@
+<html>
+	<head>
+		<title>Asset details</title>
+		<style>
+			body {
+					background-image: url("aveva-about_company-background-strategy-1.jpg");
+					background-repeat:no-repeat;
+					background-size: 100% 100%;
+					background-color: #d3d3d3;
+					opacity: 98;
+				}
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #000066;
+				opacity:0.8;
+			}
+
+			li {
+				float: left;
+			}
+
+			li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+			li a.active {
+   			 background-color: #000000;
+    		 color: white;
+}
+			
+			.inputdata {
+				
+			}
+			
+			.inputdata label {
+				position : absolute;
+			}
+			
+			.container {
+			  max-width: 500px;
+			  width: 75%;
+			  margin: 0 auto;
+			  position: center;
+			  align: center;
+			  border: solid 1px;
+			  
+			   width: 500px;
+			    padding: 25px;
+			    box-sizing: border-box;
+			    background-color: #ccccff;
+			
+			}
+
+			.contain {
+			  max-width: 200px;
+			  width: 75%;
+			  margin: 0 auto;
+			  position: absolute;
+			  align: left;
+			  padding: 15px;
+			}
+			li a:hover {
+				background-color: #111;
+			}
+			
+			/*.vl {
+				border-left: 6px solid #000066;
+				height: 100%;
+				position:fixed;
+				margin:20%;
+				top:-200;*/
+			}
+			#text1:hover {
+				border-color: #111;
+				border-width: 1px;
+			}
+			
+			#text1{
+				-webkit-border-radius: 5px;
+			}
+			#submit{
+				background-color:#000066;
+				opacity: 80;
+				border-width: 1px;
+				foreground-color:black;
+				border-color: #ffffff;
+				border-style: solid;
+				-webkit-border-radius: 10px;
+				color: white;
+				padding: 10px 20px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				height:relative
+								width:relative;
+			    -webkit-transition-duration: 0.4s;
+			}
+			#submit:hover {
+				border-color: black;
+				border-width: 1px;
+			}
+			#badadabba{
+				border-style: groove;
+				border-width: 1px;
+			}
+
+
+{
+				display : inline-block;
+				float : absolute;
+			}
+			th, td {
+		    padding: 15px;
+		    text-align: center;
+			}
+			.fieldset
+			{
+			    border: 2px groove;
+			    background-color: white;
+			}
+			#b001{
+				background-color: white;
+			}
+			#b002{
+				background-color: white;
+			}
+			#b003{
+				background-color: white;
+			}
+			#b004{
+				background-color: white;
+			}
+			#b005{
+				background-color: white;
+			}
+			#assetUnderMaintaiance
+			{
+				float: center;
+				padding: 10px;
+				display: all;
+			    margin-left: 5px;
+			    margin-right: 5px;
+			    padding-top: 1px;
+			    padding-bottom: 11px;
+			    padding-left: 1px;
+			    padding-right: 11px;
+			    border: 2px groove;
+			}
+		</style>
+
+	</head>
+	
+	<body>
+		<div id="badadabba">
+		<div class="vl"></div>
+		<br>
+		<ul>
+			<li><a href="#home">About Us</a></li>
+			<li><a class="active" href="#news">Dashboard</a></li>
+			<li><a href="#contact">Item</a></li>
+			<li><a href="#about">Lab</a></li>
+			<li><a href="#about">Member</a></li>
+			<li><a href="#about">Report</a></li>
+		</ul><br><br>
+
+
+		
+	<!-- 	
+		
+		<div class="contain">  
+			<form>
+				<fieldset>
+					<legend>More:</legend>
+					<a href="#contact">Add Asset</a><br><br>
+					<a href="#contact">Remove Asset</a><br><br>
+					<a href="#contact">Update Asset</a><br>
+				</fieldset>
+			</form>
+
+		</div>
+
+		
+		 -->		
+		 
+		 <div>
+		 	<form>
+		 		<center><b>
+		 			<table cellspacing="20px">
+		 			<tr>
+		 				<td>
+		 					<fieldset id="b001">
+
+		 						<button type="submit" value="Submit" id="b001"><h1>Assets Available</h1></button><br><br>
+		 						<input type="text" id="assetavailable" disabled>
+		 					</fieldset>
+		 				</td>
+		 				<td></td>
+		 				<td>
+		 					<fieldset id="b002">
+		 						<button type="submit" value="Submit" id="b001"><h1>Assets Under Maintainance</h1></button><br><br>
+		 						<input type="text" id="assetavailable" disabled>
+		 						
+		 					</fieldset>
+		 				</td>
+		 				<td></td>
+		 				<td>
+		 					<fieldset id="b003">
+		 						<button type="submit" value="Submit" id="b001"><h1>Assets Under Use</h1></button><br><br>
+		 						<input type="text" id="assetavailable" disabled>
+		 					</fieldset>
+		 				</td>
+		 			</tr>
+		 			<tr>
+		 				
+		 			</tr>
+		 			<tr>
+		 				<td></td>
+		 				<td>
+		 					<fieldset id="b004">
+		 						<button type="submit" value="Submit" id="b001"><h1>Check in due today</h1></button><br><br>
+		 						<input type="text" id="assetavailable" disabled>
+		 					</fieldset>
+		 				</td>
+		 				<td></td>
+		 				<td>
+		 					<fieldset id="b005">
+		 							<button type="submit" value="Submit" id="b001"><h1>Reserve Assets</h1></button><br><br>
+		 						<input type="text" id="assetavailable" disabled>
+		 					</fieldset>
+		 				</td>
+		 				<td></td>
+		 			</tr>
+		 		</table>
+		 	</b></center>
+		 	</form>
+		 </div>
+	</div>
+	</body>
+</html>	
+
+
+
+
